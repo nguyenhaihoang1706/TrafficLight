@@ -1,0 +1,33 @@
+.light-wrapper{
+    width:150px;
+    height: 150px;
+    border:2px solid #282828;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light{
+    width:135px;
+    height:135px;
+    border-radius: 50%;
+    background: #4c4c4c;
+}
+
+.light.red-light.on{
+    background: #FE0002;
+    box-shadow: 0px 0px 20px #FE0002;
+}
+
+.light.yellow-light.on{
+    background: #ffd140;
+    box-shadow: 0px 0px 20px #ffd140;
+}
+
+.light.green-light.on{
+    background: #01e924;
+    box-shadow: 0px 0px 20px #01e924;
+}
+
+
